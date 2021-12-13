@@ -3,6 +3,7 @@
     margin: 0;
 }
 body{
+    font-family: 'Montserrat';
     background-image: url(https://i.pinimg.com/236x/06/42/88/0642882517687c216d2e7bf87eae54bb.jpg);
 }
 header nav .flexMenu {
