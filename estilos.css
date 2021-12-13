@@ -4,5 +4,79 @@
 }
 body{
     background-image: url(https://i.pinimg.com/236x/06/42/88/0642882517687c216d2e7bf87eae54bb.jpg);
-    background-repeat: no-repeat;
 }
+header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 1.2rem
+}
+.flexMenu li a {
+    text-decoration: none;
+    color: #d46113;
+}
+header h1 {
+    color: #830f49;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 40px; 
+    background-position: center;
+    background-image: url(https://i.pinimg.com/236x/9d/e0/36/9de036a4a84d5da36a035e023770a9ab.jpg);
+}
+
+.grid-container {
+    display: grid;
+    margin: 40px 0 40px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1px 1px;
+    text-align: center;
+    justify-content: stretch;
+    font-size: 1.5rem;
+    grid-template-areas: "parrafoUno parrafoUno parrafoUno parrafoUno"
+    "subtituloUno subtituloDos subtituloDos subtituloTres"
+    "subtituloUno subtituloDos subtituloDos subtituloTres" ;
+}
+
+.parrafoUno {
+    grid-area: parrafoUno;
+    background-color: #e9c0e5;
+    border-style:double;
+    text-align: center;
+}
+
+.subtituloUno {
+   grid-area: subtituloUno;
+   background-color: #b6cfdd;
+}
+
+.subtituloDos {
+    grid-area: subtituloDos;
+   background-color: #b6cfdd;
+}
+
+.subtituloTres {
+    grid-area: subtituloTres;
+   background-color: #b6cfdd;
+}
+
+h2 h3 h4 {
+    font-size: 20rem;
+    text-decoration-line: overline;
+    text-align: center;
+}
+
+footer {
+    background-color: #db94ac;
+    width: 100%;
+    height: 100px;
+    padding: 50px 0 0 0; }
+  
+  footer h5 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center; }
+  
