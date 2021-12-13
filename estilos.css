@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Montserrat';
+    background-repeat: space;
     background-image: url(https://i.pinimg.com/236x/06/42/88/0642882517687c216d2e7bf87eae54bb.jpg);
 }
 header nav .flexMenu {
@@ -13,10 +14,8 @@ header nav .flexMenu {
     list-style: none;
     justify-content: space-evenly;
     padding: 50px;
-    font-size: 1.2rem
-}
-.flexMenu li a {
-    background-color: cadetblue;
+    font-size: 1.2rem;
+    background-color: darkgray;
     text-decoration-color: darkcyan;
     text-transform: capitalize;
     text-decoration-line: underline;
