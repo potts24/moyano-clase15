@@ -15,8 +15,10 @@ header nav .flexMenu {
     font-size: 1.2rem
 }
 .flexMenu li a {
-    text-decoration: none;
-    color: #d46113;
+    background-color: cadetblue;
+    text-decoration-color: darkcyan;
+    text-transform: capitalize;
+    text-decoration-line: underline;
 }
 header h1 {
     color: #830f49;
@@ -24,7 +26,7 @@ header h1 {
     text-align: center;
     padding: 40px; 
     background-position: center;
-    background-image: url(https://i.pinimg.com/236x/9d/e0/36/9de036a4a84d5da36a035e023770a9ab.jpg);
+    background-color: bisque;
 }
 
 .grid-container {
@@ -43,24 +45,24 @@ header h1 {
 
 .parrafoUno {
     grid-area: parrafoUno;
-    background-color: #e9c0e5;
+    background-color: #f3e3f1;
     border-style:double;
     text-align: center;
 }
 
 .subtituloUno {
    grid-area: subtituloUno;
-   background-color: #b6cfdd;
+   background-color: #dfeaf1;
 }
 
 .subtituloDos {
     grid-area: subtituloDos;
-   background-color: #b6cfdd;
+   background-color: #dfeaf1;
 }
 
 .subtituloTres {
     grid-area: subtituloTres;
-   background-color: #b6cfdd;
+   background-color: #dfeaf1;
 }
 
 h2 h3 h4 {
@@ -70,7 +72,7 @@ h2 h3 h4 {
 }
 
 footer {
-    background-color: #db94ac;
+    background-color: #f8bacf;
     width: 100%;
     height: 100px;
     padding: 50px 0 0 0; }
